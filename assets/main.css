@@ -340,12 +340,17 @@ header {
 
 .nav-link {
     margin-right: 1em !important;
+    color: 
 }
 
 .navbar-collapse {
     justify-content: flex-end;
+    
 }
-
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: --bs-1;
+    color: --blue-nb;
+}
 .logo {
     font-family: var(--myfont);
     font-weight: bold;
