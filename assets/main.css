@@ -338,14 +338,19 @@ header {
     background-color: rgba(var(--bgc-2-rgb), .9);
 }
 
-.nav-link {
-    margin-right: 1em !important;
-    color: 
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
-
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
 .navbar-collapse {
     justify-content: flex-end;
-    
 }
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: --bs-1;
