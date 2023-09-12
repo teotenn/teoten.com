@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My new page</title>
+    <title>Teoten's personal page</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!-- Bootstrap 5.2.3-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -33,9 +33,9 @@
 	  <li class="nav-item">
 	    <a class="nav-link" href="#projects">Projects</a>
 	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link" href="#contact">Contact</a>
-	  </li>
+	  <!-- <li class="nav-item"> -->
+	  <!--   <a class="nav-link" href="#contact">Contact</a> -->
+	  <!-- </li> -->
 	</ul>
       </div>
     </nav>
@@ -44,25 +44,31 @@
     <header class="page-header header container-fluid">
       <div class="overlay"></div>
       <div class="description">
-	<h1>Welcome to the Landing Page!</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. Suspendisse consectetur mi id libero fringilla, in pharetra sem ullamcorper.</p>
+	<h1>Welcome to Teoten's Personal Page!</h1>
+	<p>A space dedicated for my personal projects. The main focus is Data Analysis using R and other Free and Open Source Software.</p>
       </div>
     </header>
 
     <div id="content">  
       <!-- ---PORTFOLIO--- -->
       <section class="projects-section section mt-5" id="portfolio">
-	<h1>About me</h1>
+	<h1>Who is Teoten?</h1>
 	<hr class="hr-titles">
 	<div class="sections">
 	  <span class="border rounded-5 b-descript">
 	    <p class="lead">
-	      This is a lead paragraph. It stands out from regular paragraphs.
-	      This is a lead paragraph. It stands out from regular paragraphs.
-	      This is a lead paragraph. It stands out from regular paragraphs.
-	      This is a lead paragraph. It stands out from regular paragraphs.
+	      Manuel Teodoro Tenango (Teoten) is a statistician and data analyst with background in Ecology and Environmental Sciences.
+	      When he is not working for money or for idealism (volunteer) is programming and learning new stuff.
+	      Programming has been his biggest hobby for long time and as from 2022 it became his full time job.
+	      He is supporter of free and open source software and a power R user.
+	      Other interests include Emacs, Common Lisp and Julia.
 	    </p>
 	  </span>
+	  <p>
+	    Find out more on his
+	    <a class="text-blue-20" href="https://portfolio.teoten.com">personal portfolio</a>
+	    or follow Manuel on Social Media
+	  </p>
 	  <p>
 	    <a class="mx-2 btnbig text-blue-50" href="https://social.linux.pizza/@teoten"><i class="fab fa-mastodon" style="font-size: 32px;"></i></a>
             <a class="mx-2 btnsmall text-blue-50" href="https://www.linkedin.com/in/teoten/"><i class="fab fa-linkedin" style="font-size: 32px;"></i></a>
@@ -73,7 +79,7 @@
       
       <!-- ---DEV--- -->
       <section class="projects-section section mt-5" id="projects">
-	<h1>Projects</h1>
+	<h1>Selected Projects</h1>
 	<hr class="hr-titles">
 	<!-- -------- P1 -------- -->
 	<div class="sections">
@@ -86,10 +92,14 @@
             <div class="col-lg-6 col-lg-5 ml-auto d-flex align-items-center mt-4 mt-md-0">
               <div class="project-text w-100 my-auto text-center text-lg-left">
 		<span class="rep-projects">
-                  <h4 class="text-black">Project One</h4>
-                  <p class="text-black-50">I am a paragraph</p>
-                  <a class="btn btn-primary projectbtn" href="#">Live Demo</a>
-                  <a class="btn btn-primary projectbtn" href="#">Code</a>
+                  <h4 class="text-black">Mapic</h4>
+                  <p class="text-black-50">
+		    R package to facilitate the creation of Maps of Infrastructure per City (MAPIC).
+		    The code is used to support a project for an NGO.
+		    A free version can be found on my GitHub account.
+		  </p>
+                  <!-- <a class="btn btn-primary projectbtn" href="#">Live Demo</a> -->
+                  <a class="btn btn-primary projectbtn" href="https://github.com/teotenn/mapic">Code</a>
 		</span>
               </div>
             </div>
@@ -102,10 +112,10 @@
             <div class="col-lg-6 col-lg-5 ml-auto d-flex align-items-center mt-4 mt-md-0">
               <div class="project-text w-100 my-auto text-center text-lg-left">
 		<span class="rep-projects">
-                  <h4 class="text-black">Project Two</h4>
-                  <p class="text-black-50">I am a paragraph</p>
-                  <a class="btn btn-primary projectbtn" href="#">Live Demo</a>
-                  <a class="btn btn-primary projectbtn" href="#">Code</a>
+                  <h4 class="text-black">Hepatitis Dashboard</h4>
+                  <p class="text-black-50">Dashboard generated using R package flexdashboard using the public data of Hepatitis C. Here is an improved version of the dashboard that I used for my Master studies.</p>
+                  <a class="btn btn-primary projectbtn" href="https://dev.teoten.com/shiny/hepatitis_dashboard/">Live Demo</a>
+                  <a class="btn btn-primary projectbtn" href="https://github.com/teotenn/hepatitis_dashboard">Code</a>
 		</span>
               </div>
             </div>
@@ -121,101 +131,103 @@
       <!-- ---BLOG--- -->
 
       <!-- ---CONTACT--- -->
-      <section class="contact-section section mt-5" id="contact">
-	<h1>Contact</h1>
-	<hr class="hr-titles">
-	<div class="sections">
-	  <h2>Email</h2>
-	  <p>teoten@gmail.com</p>
-	</div>
-      </section>
+      <!-- <section class="contact-section section mt-5" id="contact"> -->
+      <!-- 	<h1>Contact</h1> -->
+      <!-- 	<hr class="hr-titles"> -->
+      <!-- 	<div class="sections"> -->
+      <!-- 	  <h2>Email</h2> -->
+      <!-- 	  <p>teoten@gmail.com</p> -->
+      <!-- 	</div> -->
+      <!-- </section> -->
+
+      <!-- CONTACT FORM VIA PHP -->
+      <!-- <form id="contact-form" method="post" action="assets/form.php" role="form"> -->
+      <!-- 	<div class="messages"></div> -->
+      <!-- 	<div class="controls"> -->
+      <!--     <div class="row"> -->
+      <!--       <div class="col-md-6"> -->
+      <!--         <div class="form-group"> -->
+      <!--           <label for="form_name">Firstname *</label> -->
+      <!--           <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required."> -->
+      <!--           <div class="help-block with-errors"></div> -->
+      <!--         </div> -->
+      <!--       </div> -->
+      <!--       <div class="col-md-6"> -->
+      <!--         <div class="form-group"> -->
+      <!--           <label for="form_lastname">Lastname *</label> -->
+      <!--           <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required."> -->
+      <!--           <div class="help-block with-errors"></div> -->
+      <!--         </div> -->
+      <!--       </div> -->
+      <!--     </div> -->
+      <!--     <div class="row"> -->
+      <!--       <div class="col-md-6"> -->
+      <!--         <div class="form-group"> -->
+      <!--           <label for="form_email">Email *</label> -->
+      <!--           <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required."> -->
+      <!--           <div class="help-block with-errors"></div> -->
+      <!--         </div> -->
+      <!--       </div> -->
+      <!--       <div class="col-md-6"> -->
+      <!--         <div class="form-group"> -->
+      <!--           <label for="form_need">Please specify your need *</label> -->
+      <!--           <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need."> -->
+      <!--             <option value=""></option> -->
+      <!--             <option value="Request quotation">Request quotation</option> -->
+      <!--             <option value="Request order status">Request order status</option> -->
+      <!--             <option value="Request copy of an invoice">Request copy of an invoice</option> -->
+      <!--             <option value="Other">Other</option> -->
+      <!--           </select> -->
+      <!--           <div class="help-block with-errors"></div> -->
+      <!--         </div> -->
+      <!--       </div> -->
+      <!--     </div> -->
+      <!--     <div class="row"> -->
+      <!--       <div class="col-md-12"> -->
+      <!--         <div class="form-group"> -->
+      <!--           <label for="form_message">Message *</label> -->
+      <!--           <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea> -->
+      <!--           <div class="help-block with-errors"></div> -->
+      <!--         </div> -->
+      <!--       </div> -->
+      <!--       <div class="col-md-12"> -->
+      <!--         <input type="submit" class="btn btn-success btn-send" value="Send message"> -->
+      <!--       </div> -->
+      <!--     </div> -->
+      <!--     <div class="row"> -->
+      <!--       <div class="col-md-12"> -->
+      <!--         <p class="text-muted"> -->
+      <!--           <strong>*</strong> These fields are required. Contact form template by -->
+      <!--           <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p> -->
+      <!--       </div> -->
+      <!--     </div> -->
+      <!-- 	</div> -->
+      <!-- </form> -->
       
-      <form id="contact-form" method="post" action="assets/form.php" role="form">
-
-    <div class="messages"></div>
-
-    <div class="controls">
-
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="form_name">Firstname *</label>
-                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="form_lastname">Lastname *</label>
-                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="form_email">Email *</label>
-                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="form_need">Please specify your need *</label>
-                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
-                        <option value=""></option>
-                        <option value="Request quotation">Request quotation</option>
-                        <option value="Request order status">Request order status</option>
-                        <option value="Request copy of an invoice">Request copy of an invoice</option>
-                        <option value="Other">Other</option>
-                    </select>
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="form-group">
-                    <label for="form_message">Message *</label>
-                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <input type="submit" class="btn btn-success btn-send" value="Send message">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p class="text-muted">
-                    <strong>*</strong> These fields are required. Contact form template by
-                    <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
-            </div>
-        </div>
-    </div>
-
-</form>
       <!-- ---FOOTER--- -->
     </div>
     <hr style="margin: 0px 0;height: 5px;background: black;">
-    <footer class="page-footer">
+    <footer class="footer-item">
       <div class="footer-items">
         <div class="row">
           <div class="col-lg-8 col-md-8 col-sm-12">
-            <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-          </div>
+            <h5 class="text-uppercase font-weight-bold">My Website is possible thanks to:</h5>
+	    <p>Design</p>
+            <p>Images: <a href="https://unsplash.com/">https://unsplash.com/</a>
+	      <br/>Page design: <a href="https://unsplash.com/">https://github.com/mschinagaines/mschinagaines.github.io</a>
+	      <br/>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<a href="https://unsplash.com/">https://github.com/xioyito/NewBee</a>
+	      <br/>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<a href="https://unsplash.com/">https://github.com/darshanbaral/aafu</a>
+	    </p>
+	  </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
             <h6 class="text-uppercase font-weight-bold">Contact</h6>
-            <p>1640 Riverside Drive, Hill Valley, California
-              <br/>info@mywebsite.com
-              <br/>+ 01 234 567 88
-              <br/>+ 01 234 567 89</p>
+            <p>
+	      Gdansk, Poland
+              <br/><a href="mailto:teoten@proton.me?&subject=Contact from portfolio" target="_blank">teotenn@proton.me</a>
+	    </p>
           </div>
 	  <div>
-	    <div class="footer-copyright text-center">© 2020 Copyright: MyWebsite.com</div>
+	    <div class="footer-copyright text-center">© 2023 Copyright: <a href="https://teoten.com/">teoten.com</a></div>
     </footer>
     
     <!-- ---END--- -->

@@ -187,10 +187,6 @@ ul li {
 ol li {
     list-style-position: inside;
 }
-a {
-    text-decoration: none;
-    color: #000;
-}
 table {
     border-collapse: collapse;
 }
@@ -1392,16 +1388,9 @@ body::after {
     align-items: center;
 }
 .footer-item {
-    margin: 2px 0;
+    margin: 0px 0;
 }
 
-.footer a {
-    color: rgb(180, 180, 180);
-    transition: 0.2s;
-}
-.footer a:hover {
-    color: var(--primary);
-}
 
 .sections {
     width:70%;
