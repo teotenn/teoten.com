@@ -1,0 +1,26 @@
+previews:
+  generation: automatic # Enable preview environments
+services:
+    - type: web
+      name: personal-site
+      runtime: static
+      repo: https://codeberg.org/teoten/www.teoten.com
+      region: frankfurt
+      plan: Hobby
+      branch: main
+      # domains: # Custom domains
+      #   - example.com
+      #   - www.example.org
+      # buildCommand: yarn build
+      staticPublishPath: ./public
+      previews:
+        generation: automatic # Enable service previews
+      buildFilter:
+        paths:
+          - public/assets/*
+      # ignoredPaths:
+        # - src/**/*.test.js
+      headers:
+        - path: /*
+          name: X-Frame-Options
+          value: sameorigin
