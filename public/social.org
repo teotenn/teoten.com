@@ -1,9 +1,29 @@
 #+TITLE: Teoten
 #+NICK: teoten
 #+DESCRIPTION: Trying out org social
+#+AVATAR: https://blog.teoten.com/img/tt-avatar.jpg
 #+LINK: https://teoten.com
-#+FOLLOW: https://andros.dev/static/social.org
+#+LINK: https://blog.teoten.com
 
+#+FOLLOW: https://andros.dev/static/social.org
+#+FOLLOW: https://rossabaker.com/social.org
+#+FOLLOW: https://omidmash.de/social.org
+#+FOLLOW: https://johnhame.link/social.org
+#+FOLLOW: https://eoin.site/social.org
+#+FOLLOW: https://adsan.dev/social.org
+#+FOLLOW: https://emillo.net/social.org
+#+FOLLOW: https://cmdln.org/social.org
+#+FOLLOW: https://sachachua.com/social.org
+#+FOLLOW: https://www.alessandroliguori.it/social.org
+#+FOLLOW: https://cherryramatis.xyz/social.org
+#+FOLLOW: https://shom.dev/social.org
+#+FOLLOW: https://comacero.eu/social.org
+#+FOLLOW: https://cybervalley.org/org-social-leandro/org-social.org
+#+FOLLOW: https://concavi.net/social.org
+#+FOLLOW: http://gemini.quietplace.xyz/~razzlom/social.org
+#+FOLLOW: https://notxor.nueva-actitud.org/social.org
+#+FOLLOW: https://codeberg.org/mester/CosasSociales/raw/branch/main/social.org
+#+FOLLOW: https://www.draketo.de/social.org
 
 * Posts
 **
@@ -13,3 +33,14 @@
 
 First post on Org Social!
 
+
+**
+:PROPERTIES:
+:ID: 2025-10-11T16:29:40+0200
+:LANG: 
+:TAGS: 
+:CLIENT: org-social.el
+:MOOD: 
+:END:
+
+Adding a few details to my profile and testing out my first post from local to server!
