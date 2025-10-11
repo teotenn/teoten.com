@@ -1,0 +1,19 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ [[reagent "1.2.0"]
+  [clj-commons/cljss "1.6.4"]]
+
+ :dev-http {8080 "public"}
+
+ :builds
+ {:app                              ;; name of build
+  {:target :browser                 ;; target the browser
+   :output-dir "public/js"      ;; output js files here
+   :asset-path "/js"            ;; used to construct the URL
+   :modules {:main                  ;; we need one module
+             {:init-fn teoten.portfoliocljs.app/init}}}}}
