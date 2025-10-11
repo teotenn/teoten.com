@@ -1,0 +1,15 @@
+#+TITLE: Teoten
+#+NICK: teoten
+#+DESCRIPTION: Trying out org social
+#+LINK: https://teoten.com
+#+FOLLOW: https://andros.dev/static/social.org
+
+
+* Posts
+**
+:PROPERTIES:
+:ID: 2025-10-11T15:54:00+0200
+:END:
+
+First post on Org Social!
+
