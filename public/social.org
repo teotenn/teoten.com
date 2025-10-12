@@ -25,6 +25,12 @@
 #+FOLLOW: https://codeberg.org/mester/CosasSociales/raw/branch/main/social.org
 #+FOLLOW: https://www.draketo.de/social.org
 
+#+GROUP: Emacs https://org-social-relay.andros.dev
+#+GROUP: Org Social https://org-social-relay.andros.dev
+#+GROUP: Org Mode https://org-social-relay.andros.dev
+#+GROUP: Elisp https://org-social-relay.andros.dev
+#+GROUP: Random https://org-social-relay.andros.dev
+
 * Posts
 **
 :PROPERTIES:
@@ -44,3 +50,30 @@ First post on Org Social!
 :END:
 
 Adding a few details to my profile and testing out my first post from local to server!
+
+**
+:PROPERTIES:
+:ID: 2025-10-12T06:24:45+0200
+:LANG: en
+:TAGS: org-social emacs-lisp configuration
+:CLIENT: org-social.el
+:MOOD: 🤨
+:END:
+
+Any advice configuring org-social.el with straight.el?
+
+When I try to load the timeline I get the following: =Warning: Could not load org-social-ui module= Then I need to go and load the code in =org-socual-ui.el= and then I can use everything without problem. Any idea why this could be happening?
+
+My config is very simple:
+#+begin_src emacs-lisp
+(use-package org-social
+  :straight
+  (:host github
+   :type git
+   :repo "tanrax/org-social.el"
+   :branch "main")
+  :custom
+  (org-social-file "~/Projects/teoten.com/public/social.org")
+  (org-social-relay "https://org-social-relay.andros.dev/")
+  (org-social-my-public-url "https://teoten.com/social.org"))
+#+end_src
