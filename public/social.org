@@ -86,3 +86,27 @@ My config is very simple:
 :MOOD: 👋
 :END:
 
+
+**
+:PROPERTIES:
+:ID: 2025-10-12T13:34:48+0200
+:LANG: 
+:TAGS: 
+:CLIENT: org-social.el
+:REPLY_TO: https://andros.dev/static/social.org#2025-10-12T10:51:54+0200
+:MOOD: 
+:END:
+
+Still nothing. I have updated from branch main and I can see the 3 new lines from the commit =51dfaeb= in my local version of the package-install:
+
+#+begin_src emacs-lisp
+    ;; Add UI subdirectories to load-path
+    (add-to-list 'load-path (expand-file-name "ui" org-social--root-dir))
+    (add-to-list 'load-path (expand-file-name "ui/buffers" org-social--root-dir))
+#+end_src
+
+But I still keep having the exact same error.
+
+The changes expand properly to the right path ="~/.emacs.d/straight/build/org-social/ui"= and I can see all the right files and directories cloned to ="straight/repos/org-social/"= BUT I cannot see the sub directory =/ui= in the ="straight/build/org-social/"=. I am not sure if this is exactly the issue because I still have the sym link to =org-social-ui.el= file in the build dir (although not compiled), and when I evaluate that file in Emacs I get access to all the UI functionality. So, for now I have changed the value of =org-social--root-dir= to my straight path for repos (=(defconst org-social--root-dir "~/.emacs.d/straight/repos/org-social.el/")=) directly in the source code and that solves the problem completely.
+
+Maybe it would be a good idea to make it a =defcustom=? Although it shouldn't be necessary. I don't have experience with packages with sub directories but I use a few so, I can try to find some time during the week to see how they do it and try to solve it the proper way. Meanwhile, I hope all this info is useful. Let me know if you want me to transfer it all to an issue in the repo.
