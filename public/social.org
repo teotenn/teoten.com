@@ -77,3 +77,12 @@ My config is very simple:
   (org-social-relay "https://org-social-relay.andros.dev/")
   (org-social-my-public-url "https://teoten.com/social.org"))
 #+end_src
+
+**
+:PROPERTIES:
+:ID: 2025-10-12T06:47:14+0200
+:CLIENT: org-social.el
+:REPLY_TO: https://andros.dev/static/social.org#2025-10-11T17:14:24+0200
+:MOOD: 👋
+:END:
+
