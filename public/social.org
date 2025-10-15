@@ -122,3 +122,17 @@ Maybe it would be a good idea to make it a =defcustom=? Although it shouldn't be
 :END:
 
 Sorry for the late answer. Sure I'll open the issue
+
+**
+:PROPERTIES:
+:ID: 2025-10-15T15:15:02+0200
+:LANG: 
+:TAGS: 
+:CLIENT: org-social.el
+:REPLY_TO: https://rosaelefanten.org/social.org#2025-10-15T02:43:47+0200
+:MOOD: 
+:END:
+
+I was having the same question. I am curious what the author [[org-social:https://andros.dev/static/social.org][andros]] has to say.
+
+Personally, I would be good by removing older posts, every 6/12 months. I can imagine how this can create broken links and how some people would like to keep certain things (or all) forever. I have never liked that. I am of the opinion that the old things have to die for the new to come to life. We are already swimming in oceans of data and information anyway so, I would be happy to contribute to cleaning up the mess a little by having total control of my data and my posts. In any other social network I am never sure if my data was completely erased when I click delete.
