@@ -110,3 +110,15 @@ But I still keep having the exact same error.
 The changes expand properly to the right path ="~/.emacs.d/straight/build/org-social/ui"= and I can see all the right files and directories cloned to ="straight/repos/org-social/"= BUT I cannot see the sub directory =/ui= in the ="straight/build/org-social/"=. I am not sure if this is exactly the issue because I still have the sym link to =org-social-ui.el= file in the build dir (although not compiled), and when I evaluate that file in Emacs I get access to all the UI functionality. So, for now I have changed the value of =org-social--root-dir= to my straight path for repos (=(defconst org-social--root-dir "~/.emacs.d/straight/repos/org-social.el/")=) directly in the source code and that solves the problem completely.
 
 Maybe it would be a good idea to make it a =defcustom=? Although it shouldn't be necessary. I don't have experience with packages with sub directories but I use a few so, I can try to find some time during the week to see how they do it and try to solve it the proper way. Meanwhile, I hope all this info is useful. Let me know if you want me to transfer it all to an issue in the repo.
+
+**
+:PROPERTIES:
+:ID: 2025-10-15T15:04:16+0200
+:LANG: 
+:TAGS: 
+:CLIENT: org-social.el
+:REPLY_TO: https://andros.dev/static/social.org#2025-10-12T15:48:09+0200
+:MOOD: 
+:END:
+
+Sorry for the late answer. Sure I'll open the issue
