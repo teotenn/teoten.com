@@ -148,3 +148,15 @@ Personally, I would be good by removing older posts, every 6/12 months. I can im
 :END:
 
 Welcome!
+
+**
+:PROPERTIES:
+:ID: 2025-10-18T05:31:54+0200
+:LANG: 
+:TAGS: 
+:CLIENT: org-social.el
+:REPLY_TO: https://thesolarprincess.site/social.org#2025-10-17T19:32:13-0300
+:MOOD: 
+:END:
+
+I was thinking the same. I think it is a flaw in the UI. There are many little things missing or not complete. But it is also a very new package and overall, project. So, it is probably useful to raise an issue in the github repo if you think this is important. Help the project grow.
