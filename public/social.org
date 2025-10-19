@@ -160,3 +160,17 @@ Welcome!
 :END:
 
 I was thinking the same. I think it is a flaw in the UI. There are many little things missing or not complete. But it is also a very new package and overall, project. So, it is probably useful to raise an issue in the github repo if you think this is important. Help the project grow.
+
+**
+:PROPERTIES:
+:ID: 2025-10-19T05:01:43+0200
+:LANG: 
+:TAGS: 
+:CLIENT: org-social.el
+:REPLY_TO: https://johnhame.link/social.org#2025-10-18T23:57:21+0100
+:MOOD: 
+:END:
+
+Tomorrow I complete my first week with my first mechanic keyboard, a Corne V4. I am super happy with it so far. I am still typing quite slow but I like it a lot. Before I was having just normal membrane keyboards but I had enough. I was interested in the Digma Defy, but it is quite expensive so, I decided to try with something more affordable before doing such an investment. Right now I am so happy with the minimalist design of the Corne that I might stay there, but we will see. What I love the most is to have all my modifiers at the reach of my thumbs, it is a game changer.
+
+By the way, I can see the poll wit the proper org - [ ] to C-c C-c mark but of course, one cannot edit somebody else post, nor it would make sense. But I was just wondering if there is an easier way to just "vote" in a poll? You know, rather than writing a post with your answer? But I guess that also makes no sense, right?
