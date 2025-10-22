@@ -174,3 +174,17 @@ I was thinking the same. I think it is a flaw in the UI. There are many little t
 Tomorrow I complete my first week with my first mechanic keyboard, a Corne V4. I am super happy with it so far. I am still typing quite slow but I like it a lot. Before I was having just normal membrane keyboards but I had enough. I was interested in the Digma Defy, but it is quite expensive so, I decided to try with something more affordable before doing such an investment. Right now I am so happy with the minimalist design of the Corne that I might stay there, but we will see. What I love the most is to have all my modifiers at the reach of my thumbs, it is a game changer.
 
 By the way, I can see the poll wit the proper org - [ ] to C-c C-c mark but of course, one cannot edit somebody else post, nor it would make sense. But I was just wondering if there is an easier way to just "vote" in a poll? You know, rather than writing a post with your answer? But I guess that also makes no sense, right?
+
+**
+:PROPERTIES:
+:ID: 2025-10-22T02:56:00+0200
+:LANG: 
+:TAGS: 
+:CLIENT: org-social.el
+:REPLY_TO: https://johnhame.link/social.org#2025-10-19T18:26:33+0100
+:MOOD: 
+:END:
+
+I read and saw videos about how many layers you might meed. But all I need is 2 layers: The basic one for the letters and then a 2nd with the numbers, missing symbols and the few F-keys I use regularly. So I am basically using one mod key (tap-hold, yes) for that 2nd layer a bit as a shift key. I have it at the easiest reach of my right thumb. I have Ctrl to the same position of the left thumb. And then space and enter next to each. Alt is the last in my thumb row, t I have it somewhere else because some combinations are complicated there. I guess I still have to tune it. As for Super, it is at the internal 2-key section, where some corne have the little display.
+
+So far I'm happy with that layout and I am very happy with the keyboard, even though I'm still getting used to it.
